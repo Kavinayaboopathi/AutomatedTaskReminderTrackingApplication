@@ -1,25 +1,26 @@
-Automated Task Reminder Tracking Application – Backend
-Overview
+#Automated Task Reminder Tracking Application – Backend
 
-This backend service is built using Spring Boot and provides REST APIs for managing tasks, scheduling reminders, and sending automated email notifications. It handles business logic, persistence, and background job scheduling to ensure timely task reminders.
+##Overview
 
-Tech Stack
+###This backend service is built using Spring Boot and provides REST APIs for managing tasks, scheduling reminders, and sending automated email notifications. It handles business logic, persistence, and background job scheduling to ensure timely task reminders.
 
-Java
+##Tech Stack
 
-Spring Boot
+ Java
 
-Spring Data JPA
+ Spring Boot
 
-MySQL
+ Spring Data JPA
 
-Spring Scheduler
+ MySQL
 
-Java Mail (SMTP)
+ Spring Scheduler
 
-Maven
+ Java Mail (SMTP)
 
-Key Features
+ Maven
+
+##Key Features
 
 Task CRUD operations via REST APIs
 
@@ -31,7 +32,7 @@ Background job scheduling and cancellation
 
 Task statistics and CSV report generation
 
-API Highlights
+##API Highlights
 
 POST /tasks/add – Create a task
 
